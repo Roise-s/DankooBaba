@@ -1,4 +1,51 @@
 .home {
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
     height: 70px;
-    background-color: lightblue;
+    background-color: white;
+    border: 0.5px solid rgba(202, 202, 202, 0.6);
+
+    .divL {
+        flex: 0.5;
+
+        .name {
+            font-family: "PT Serif", serif;
+            font-weight: 500;
+            font-size: 20px;
+            font-style: normal;
+
+            &:hover {
+                cursor: pointer;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .divR {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1.2;
+
+        .RBtn {
+            margin-right: 120px;
+
+            &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+            }
+
+            &:active {
+                opacity: 0.6;
+            }
+        }
+    }
+
+    .bookSection {
+        flex: 0.3;
+    }
 }

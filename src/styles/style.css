@@ -1,4 +1,42 @@
 .home {
+  display: flex;
+  padding: 0 20px;
+  align-items: center;
   height: 70px;
-  background-color: lightblue;
+  background-color: white;
+  border: 0.5px solid rgba(202, 202, 202, 0.6);
+}
+.home .divL {
+  flex: 0.5;
+}
+.home .divL .name {
+  font-family: "PT Serif", serif;
+  font-weight: 500;
+  font-size: 20px;
+  font-style: normal;
+}
+.home .divL .name:hover {
+  cursor: pointer;
+}
+.home .divL .name:active {
+  opacity: 0.6;
+}
+.home .divR {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1.2;
+}
+.home .divR .RBtn {
+  margin-right: 120px;
+}
+.home .divR .RBtn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+.home .divR .RBtn:active {
+  opacity: 0.6;
+}
+.home .bookSection {
+  flex: 0.3;
 }/*# sourceMappingURL=style.css.map */
