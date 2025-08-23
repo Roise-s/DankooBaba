@@ -46,6 +46,10 @@
     }
 
     .bookSection {
+        @media (max-width: 1200px) {
+            display: none;
+            
+        }
         flex: 0.3;
     }
 }
