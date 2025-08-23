@@ -5,9 +5,13 @@
     height: 70px;
     background-color: white;
     border: 0.5px solid rgba(202, 202, 202, 0.6);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 
     .divL {
-        flex: 0.5;
+        flex: 1.2;
+        margin-left: 60px;
 
         .name {
         @media (max-width: 550px) {
@@ -29,40 +33,11 @@
         }
     }
 
-    .divR {
-        @media (max-width: 650px) {
-            flex: 0.5;
-            
-        }
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex: 1.2;
-
-        .RBtn {
-        @media (max-width: 650px) {
-            margin-right: 50px;
-            font-size: 16px;
-            
-        }
-            margin-right: 120px;
-
-            &:hover {
-                cursor: pointer;
-                opacity: 0.8;
-            }
-
-            &:active {
-                opacity: 0.6;
-            }
-        }
-    }
-
     .bookSection {
         @media (max-width: 1200px) {
             display: none;
             
         }
-        flex: 0.3;
+        flex: 0.4;
     }
 }

@@ -5,9 +5,13 @@
   height: 70px;
   background-color: white;
   border: 0.5px solid rgba(202, 202, 202, 0.6);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 .header .divL {
-  flex: 0.5;
+  flex: 1.2;
+  margin-left: 60px;
 }
 .header .divL .name {
   font-family: "PT Serif", serif;
@@ -27,35 +31,8 @@
 .header .divL .name:active {
   opacity: 0.6;
 }
-.header .divR {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex: 1.2;
-}
-@media (max-width: 650px) {
-  .header .divR {
-    flex: 0.5;
-  }
-}
-.header .divR .RBtn {
-  margin-right: 120px;
-}
-@media (max-width: 650px) {
-  .header .divR .RBtn {
-    margin-right: 50px;
-    font-size: 16px;
-  }
-}
-.header .divR .RBtn:hover {
-  cursor: pointer;
-  opacity: 0.8;
-}
-.header .divR .RBtn:active {
-  opacity: 0.6;
-}
 .header .bookSection {
-  flex: 0.3;
+  flex: 0.4;
 }
 @media (max-width: 1200px) {
   .header .bookSection {
