@@ -15,6 +15,12 @@
   font-size: 20px;
   font-style: normal;
 }
+@media (max-width: 550px) {
+  .home .divL .name {
+    margin-left: 5px;
+    font-size: 16px;
+  }
+}
 .home .divL .name:hover {
   cursor: pointer;
 }
@@ -29,6 +35,11 @@
 }
 .home .divR .RBtn {
   margin-right: 120px;
+}
+@media (max-width: 650px) {
+  .home .divR .RBtn {
+    margin-right: 50px;
+  }
 }
 .home .divR .RBtn:hover {
   cursor: pointer;
