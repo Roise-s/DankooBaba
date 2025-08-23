@@ -1,4 +1,4 @@
-.home {
+.header {
   display: flex;
   padding: 0 20px;
   align-items: center;
@@ -6,59 +6,59 @@
   background-color: white;
   border: 0.5px solid rgba(202, 202, 202, 0.6);
 }
-.home .divL {
+.header .divL {
   flex: 0.5;
 }
-.home .divL .name {
+.header .divL .name {
   font-family: "PT Serif", serif;
   font-weight: 500;
   font-size: 20px;
   font-style: normal;
 }
 @media (max-width: 550px) {
-  .home .divL .name {
+  .header .divL .name {
     margin-left: 5px;
     font-size: 16px;
   }
 }
-.home .divL .name:hover {
+.header .divL .name:hover {
   cursor: pointer;
 }
-.home .divL .name:active {
+.header .divL .name:active {
   opacity: 0.6;
 }
-.home .divR {
+.header .divR {
   display: flex;
   justify-content: center;
   align-items: center;
   flex: 1.2;
 }
 @media (max-width: 650px) {
-  .home .divR {
+  .header .divR {
     flex: 0.5;
   }
 }
-.home .divR .RBtn {
+.header .divR .RBtn {
   margin-right: 120px;
 }
 @media (max-width: 650px) {
-  .home .divR .RBtn {
+  .header .divR .RBtn {
     margin-right: 50px;
     font-size: 16px;
   }
 }
-.home .divR .RBtn:hover {
+.header .divR .RBtn:hover {
   cursor: pointer;
   opacity: 0.8;
 }
-.home .divR .RBtn:active {
+.header .divR .RBtn:active {
   opacity: 0.6;
 }
-.home .bookSection {
+.header .bookSection {
   flex: 0.3;
 }
 @media (max-width: 1200px) {
-  .home .bookSection {
+  .header .bookSection {
     display: none;
   }
 }/*# sourceMappingURL=style.css.map */
