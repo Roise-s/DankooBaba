@@ -33,12 +33,18 @@
   align-items: center;
   flex: 1.2;
 }
+@media (max-width: 650px) {
+  .home .divR {
+    flex: 0.5;
+  }
+}
 .home .divR .RBtn {
   margin-right: 120px;
 }
 @media (max-width: 650px) {
   .home .divR .RBtn {
     margin-right: 50px;
+    font-size: 16px;
   }
 }
 .home .divR .RBtn:hover {
