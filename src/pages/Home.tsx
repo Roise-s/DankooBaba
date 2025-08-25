@@ -4,6 +4,7 @@ import MainHome from '@/components/MainHome'
 import Footer from '@/components/Footer'
 import MiddleSection from '@/components/MiddleSection'
 import View from '@/components/View'
+import Bookings from '@/components/Bookings'
 
 const Home = () => {
 
@@ -12,6 +13,7 @@ const Home = () => {
      <Header />
      <MainHome /> 
      <View />
+     <Bookings />
      <MiddleSection />
      <Footer />
     </>

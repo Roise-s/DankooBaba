@@ -15,11 +15,11 @@ const MiddleSection = () => {
                 <div>
                     <div className="max-w-prose md:max-w-none">
                     <h2 className="text-2xl font-semibold text-gray-900 sm:text-3xl">
-                        We offer a variety of room types to choose from
+                        INTRODUCING DANKOO BABA GUEST HOUSE
                     </h2>
 
                     <p className="mt-4 text-gray-700">
-                        All of which are well-appointed and equipped with everything you need for a relaxing and enjoyable stay. Our rooms feature en-suite bathrooms, air conditioning, flat-screen TVs, and free Wi-Fi. We also offer a delicious breakfast every morning, which is included in your room rate.
+                        Dankoo Baba simply means (THANK YOU LORD), launched in November 2023.One hard working African man whose blessings came after a long struggle ,had a vision to spread happiness and built a place that people can unwind and feel like their second home.
                     </p>
                     </div>
                 </div>
